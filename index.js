@@ -20,7 +20,7 @@ while (decision !== 2) {
     const parciales = parseInt(prompt("Ingrese numero de parciales: "))
     let nota = 0
 
-    if ((!isNaN(parciales)) && (parciales > 0)) {
+    if ((!isNaN(parciales)) && (parciales >= 1)) {
 
 
 
